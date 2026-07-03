@@ -445,11 +445,15 @@
 
 .dear-hero__names {
     margin: 0 0 14px;
-    font-family: var(--dear-font-en);
+    font-family: var(--dear-font-ja);
     font-weight: 500;
-    font-size: clamp(1.8rem, 6vw, 3.2rem);
-    letter-spacing: 0.14em;
+    font-size: clamp(1.55rem, 5.2vw, 3rem);
+    letter-spacing: 0.1em;
     line-height: 1.35;
+}
+
+.dear-hero__names > span:not(.dear-hero__amp) {
+    white-space: nowrap;
 }
 
 .dear-hero__amp {
